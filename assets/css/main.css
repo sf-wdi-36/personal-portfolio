@@ -72,14 +72,6 @@ nav li:hover a {
 		color: #000;      /*#000*/
 }
 
-
-/*.projects{
-  text-align: center;
-  margin: 40px;
-  padding: 35px;
-}*/
-
-
 #project-table {
   border-collapse: collapse;
   margin: 30px;
@@ -119,7 +111,7 @@ a {
 }
 
 footer{
-  color: #444;
+  color: #deebf7;
   text-align: center;
   margin-top: 120px ;
   padding: 5px 1;
