@@ -7,6 +7,7 @@ body {
 h1 {
   text-align: center;
   padding: 10px;
+  color: #3182bd;
 }
 img {
   width: 10%;
@@ -20,6 +21,7 @@ h5 {
   text-align: left;
   padding: 10px;
   text-align: center;
+  color: #3182bd;
 }
 nav {
   text-align: center;
