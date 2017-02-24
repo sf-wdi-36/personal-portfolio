@@ -1,13 +1,25 @@
 /* custom styles */
+body {
+  background-color: #deebf7;
 
-h1 {
-  text-align: left;
-  padding: 10px;
 }
 
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+img {
+  width: 10%;
+  height: 10%;
+  border-radius: 100px;
+  display: block;
+  margin:0 auto;
+
+}
 h5 {
   text-align: left;
   padding: 10px;
+  text-align: center;
 }
 nav {
   text-align: center;
@@ -44,8 +56,8 @@ nav a {
 			height: 20px;
 			padding: 6px 10px 20px 0;
 			border-radius: 10px 30px 0 0;
-			background: #999;
-			color: #444;
+			background: #3182bd; /*#999*/
+			color: #deebf7; /*#444*/
 			text-align: center;
 			text-decoration: none;
 			transition: .2s;
@@ -56,8 +68,8 @@ nav li:hover {
 }
 
 nav li:hover a {
-		background: #ccc;
-		color: #000;
+		background: #9ecae1; /*#ccc*/
+		color: #000;      /*#000*/
 }
 
 
@@ -83,10 +95,22 @@ nav li:hover a {
   vertical-align: top;
 }
 #project-table td:nth-child(even) {
-  background: #ccc;
+  background: #9ecae1; /*#ccc*/
 }
 #project-table td:nth-child(odd) {
-  background: #eee;
+  background: #3182bd; /*#eee*/
+}
+
+table td p:hover {
+			z-index: 1;
+}
+table a {
+  color: #deebf7;
+}
+
+table td:hover a {
+		background: #9ecae1; /*#ccc*/
+		color: #000;      /*#000*/
 }
 
 
